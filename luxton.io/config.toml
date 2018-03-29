@@ -1,0 +1,48 @@
+baseURL = "https://luxton.io/"
+languageCode = "en-gb"
+title = "Gus Luxton"
+theme = "minimal"
+disqusShortname = "" # delete this to disable disqus comments
+googleAnalytics = "UA-116599075-1"
+
+[params]
+    author = "Gus Luxton"
+    description = "Devops/Linux Sysadmin"
+    githubUsername = "#webvictim"
+    accent = "#4d05c3"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    profilePic = "profile.jpg"
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:gus@luxton.io"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/webvictim/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/webvictim/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/gusluxton/"
+    name = "linkedin"
+    weight = 4
